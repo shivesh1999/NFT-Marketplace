@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'nft-image':'url("./Components/assests/nft.jpg")'
+        'nft-image':'url("./Components/assests/nft.jpg")',
+        'background-3':'url("./Components/assests/background3.png")'
       },
     },
   },

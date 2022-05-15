@@ -5,7 +5,7 @@ function Discover(){
         <div className="grid grid-cols-2">
         <div className="bg-blue-900 bg-opacity-80 py-10 text-white space-y-2">
           <div className="mx-10 space-y-10 space-x-2">
-          <span className="font-bold text-8xl space-y-5 ">
+          <span className="font-bold text-5xl space-y-5 ">
           <h1>Discover.</h1>
           <h1>Collect and Sell.</h1>
           <h1>Extraordinary</h1>
@@ -17,8 +17,8 @@ function Discover(){
           <a className="text-sm text-gray-100" href="#"><h6>Get Featured On The HomePage</h6></a>
           </div>       
         </div>
-        <div className=" text-white text-right mx-14 my-48">
-            <img src={nftPreview} className="w-full rounded w-96 object-right"></img>
+        <div className=" text-white text-right mx-14 ">
+            <img src={nftPreview}></img>
             <span className="space-y-5 text-2xl">
                 <a className="underline text-xl font-bold" style={{color: '#B6DCFF'}}>SoulCurryArt</a>
                 <h1>A play of light and shade, chairoscurso is the <br/>realm between the light and dark</h1>
