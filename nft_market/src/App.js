@@ -7,6 +7,8 @@ import Categories from './Components/Categories';
 import ExploreCategories from './Components/ExploreCategories';
 import FAQ from './Components/FAQ';
 import GettingStarted from './Components/GettingStarted';
+import BottomNav from './Components/BottomNav';
+
 function App() {
 return(
   <div>
@@ -18,6 +20,7 @@ return(
     <ExploreCategories/>
     <FAQ/>
     <GettingStarted/>
+    <BottomNav/>
   </div>
 );
 }

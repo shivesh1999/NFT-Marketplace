@@ -7,25 +7,25 @@ function Notable(){
     return(
         <div>
             <div className="grid grid-cols-2 bg-background-3 w-full h-auto bg-cover bg-center ">
-                <div className="mx-10 my-48">
+                <div className="mx-10 my-auto">
                     <span>
-                    <img src={picture1} className="mx-10 my-10 inline drop-shadow-2xl w-1/3 h-1/3"></img>
+                    <img src={picture1} className="mx-2 my-2 inline drop-shadow-2xl w-60 h-40"></img>
                     </span>
                     <span>
-                    <img src={picture2} className="mx-10 my-10 inline drop-shadow-2xl w-1/4 h-1/4"></img>
+                    <img src={picture2} className="mx-2 my-2 inline drop-shadow-2xl w-52 h-40"></img>
                     </span>
                     <br></br>
                     <span>
-                    <img src={picture4} className="mx-10 my-10 inline drop-shadow-2xl w-1/4 h-1/4"></img>
+                    <img src={picture4} className="mx-2 my-2 inline drop-shadow-2xl w-52 h-40"></img>
                     </span>
                     <span>
-                    <img src={picture3} className="mx-10 my-10 inline drop-shadow-2xl w-1/3 h-1/3"></img>
+                    <img src={picture3} className="mx-2 my-2 inline drop-shadow-2xl w-60 h-40"></img>
                     </span>
                 </div>
                 <div className="mx-40 my-40 text-left">
                     <span>
-                        <h1 className='text-blue-900 font-bold text-6xl py-10'>Notable Drops</h1>
-                        <h6 className='text-2xl py-10'>Upload your work image, video,audio,<br/> 
+                        <h1 className='text-blue-900 font-bold text-4xl py-5'>Notable Drops</h1>
+                        <h6 className='text-xl py-5'>Upload your work image, video,audio,<br/> 
                         or 3D art, add a title and description,<br/>
                         and customize your NFTs stats, and <br/>
                         unlockable content.</h6>
